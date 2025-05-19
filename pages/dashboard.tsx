@@ -1,3 +1,5 @@
+import ProductSearch from '../components/ProductSearch';
+
 export default function Dashboard() {
   return (
     <div className="p-8">
