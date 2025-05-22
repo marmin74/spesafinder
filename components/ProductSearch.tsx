@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-export default function ProductSearch() {
+function ProductSearch() {
   const [query, setQuery] = useState('');
   const [results, setResults] = useState<any[]>([]);
   const [loading, setLoading] = useState(false);
@@ -45,3 +45,5 @@ export default function ProductSearch() {
     </div>
   );
 }
+
+export default ProductSearch;
